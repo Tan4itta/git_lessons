@@ -1,0 +1,332 @@
+@font-face {
+    font-family: Quite Chocolatey;
+    src: url(../fonts/Quite_Chocolatey.ttf);
+}
+@font-face {
+    font-family: Couture;
+    src: url(../fonts/couture-bld.otf);
+}
+* {
+    box-sizing: border-box;
+    }
+.container {
+    margin: 0 auto;
+    }
+.automotive {
+    width: 1200px;
+    height: 2000px;
+    }
+.automotive_header {
+    background-image: url(/img/Layer\ 1.png);
+   }
+.automotive_menu {
+    display: flex; 
+    justify-content: space-between;
+    margin: 0 auto;   */
+    align-items: center;
+    }
+.menu {
+    width: 627px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 105px 0 100px; 
+    }
+.item_menu {
+    margin: 0 15px 0 15px
+    font-size: 18px;
+    letter-spacing: 0px;
+    /* line-height: 22px; */
+    color: #ffffff; 
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px;
+   }
+.item_menu:hover {
+    margin: 0 15px 0 15px
+    font-size: 18px;
+    letter-spacing: 0px;
+    /* line-height: 22px; */
+    color: #ffffff; 
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 4px;
+    background-color: #130e27;
+    
+}
+.text_logo {
+    margin: 50px 150px 0 85px; 
+    font-size: 88px;
+    letter-spacing: -2px;
+    /* line-height: 32px; */
+    color: #ffffff;
+    font-family: "Quite Chocolatey";
+    /* text-align: center; */
+}
+.moto1 {
+        margin: 75px 0 -20px 85px; 
+        font-size: 90px;
+        letter-spacing: -2px;
+        color: #130e27;
+        font-weight: 700;
+        font-family: "Montserrat";
+        text-transform: uppercase;
+    }
+    .moto2 {
+        margin: -10px 0 0 85px; 
+        font-size: 90px;
+        letter-spacing: -2px;
+        color: #ffffff;
+        font-weight: 700;
+        font-family: "Montserrat";
+        text-transform: uppercase;
+        }
+.text_moto {
+    margin: 55px 0 0 85px;
+    width: 490px;
+    height: 184px;
+    font-size: 20px;
+    letter-spacing: 0px;
+    /* line-height: 28px; */
+    color: #ffffff;
+    font-weight: 400;
+    font-family:"PT Serif";
+    }
+.line {
+    width: 1200px;
+    height: 10px;
+    background-color:lightgray;
+    }
+.automotive_services {
+    /* margin: 0 0 0 100px; */
+    /* width: 627px; */
+}
+.head_text_services {
+    /* width: 639px; */
+    /* height: 368px; */
+    font-size: 50px;
+    letter-spacing: -1px;
+    /* line-height: 80px; */
+    color:#130e27;
+    font-weight: bold;
+    font-family: "Couture";
+    margin: 35px 0 85px 100px;
+}
+.highlight {
+  color: #c62314;
+}
+.items {
+    margin: 0 0 0 100px;
+    width: 1010px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item_services {
+    width: 175px;
+    text-align: center;
+}
+.icon_services {
+    /* text-align: center; */
+    }
+.fa {
+    margin: 0 auto;
+    font-size: 170px;
+
+}
+.icon_text_services {
+    margin: 55px auto;
+    width: 183px; 
+    /* height: 180px; */
+    font-size: 20px;
+    letter-spacing: 0px;
+    /* line-height: 28px; */
+    color: #161616;
+    font-weight: 400;
+    font-family: "PT Serif";
+    text-align: center;
+}
+.our_story {
+    margin: 0 auto;
+    width: 1200px;
+    height: 120px;
+    background-color: #130e27;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.text_story {
+    margin: 0;
+    width: 630px;
+    /* height: 77px; */
+    font-size: 20px;
+    letter-spacing: 0px;
+    /* line-height: 28px; */
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "PT Serif";
+    }
+.btn_story {
+    width: 270px;
+    height: 63px;
+    /* width: 183px;
+    height: 41px; */
+    font-size: 22px;
+    letter-spacing: 0px;
+    /* line-height: 28px; */
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #c62314;
+    }
+.pricing {
+    width: 1200px;
+    height: 615px;
+    background-color: #efefef;
+    /* margin: 0; */
+    /* justify-content: center; */
+}
+.head_pricing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 10px 0;
+    width: 1200px;
+    height: 158px;
+    font-size: 50px;
+    letter-spacing: -1px;
+    /* line-height: 80px; */
+    color: #130e27;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+}
+.items_pricing {
+    width: 998px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.item_pricing {
+    margin: 0 0 0 0;
+    width: 322px;
+    height: 391px;
+    background-color: #ffffff;
+    text-align: center;
+}
+.head_item_pricing {
+    /* width: 262px; */
+    /* height: 123px; */
+    margin: 30px 0 20px 0;
+    font-size: 22px;
+    letter-spacing: 0px;
+    /* line-height: 28px; */
+    color: #161616;
+    font-weight: 400;
+    font-family: "PT Serif";
+    text-align: center;
+}
+.price {
+    /* width: 639px; */
+    /* height: 368px; */
+    margin: 0 0 10px 0;
+    font-size: 60px;
+    letter-spacing: -1px;
+    /* line-height: 80px; */
+    color: #c62314;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+    text-transform: uppercase;
+}
+.price_option {
+    /* width: 262px; */
+    /* height: 190px; */
+    margin: 0 0 0 0;
+    font-size: 20px;
+    letter-spacing: 0px;
+    /* line-height: 28px; */
+    color: #161616;
+    font-weight: 400;
+    font-family: "PT Serif";
+    text-align: center;
+    text-transform: capitalize;
+}
+.price_btn {
+    margin-top: 25px;
+    width: 205px;
+    height: 49px;
+    background-color: #130e27;
+    color: #ffffff;
+    text-transform: uppercase;
+    width: 183px;
+    /* height: 41px; */
+    font-size: 22px;
+    letter-spacing: 0px;
+    /* line-height: 28px; */
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+.price_btn:hover {
+    width: 205px;
+    height: 49px;
+    background-color: #c62314;
+    color: #ffffff;
+    text-transform: uppercase;
+    width: 183px;
+    /* height: 41px; */
+    font-size: 22px;
+    letter-spacing: 0px;
+    /* line-height: 28px; */
+    color: #ffffff ;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    border: 1px #c62314 solid;
+}
+.footer {
+    margin: 0 auto;
+    width: 1200px;
+    height: 191px;
+    background-color: #130e27;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.text_footer {
+    font-size: 20px;
+    letter-spacing: 0px;
+    /* line-height: 22px; */
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "PT Serif";
+}
+.highlight2 {
+    color: #c62314;
+}
+.logo_footer {
+    font-size: 64px;
+    letter-spacing: -1px;
+    /* line-height: 24px; */
+    color: #c62314;
+    font-family: "Quite Chocolatey";
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
